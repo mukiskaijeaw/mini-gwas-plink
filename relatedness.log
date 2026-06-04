@@ -1,0 +1,15 @@
+PLINK v1.9.0-b.7.7 64-bit (22 Oct 2024)
+Options in effect:
+  --bfile data
+  --genome
+  --out relatedness
+
+Hostname: DESKTOP-EE8TOSE
+Working directory: /home/muk/mini_gwas
+Start time: Thu Jun  4 16:16:43 2026
+
+Random number seed: 1780564603
+2836 MB RAM detected; reserving 1418 MB for main workspace.
+Error: Failed to open data.bed.
+
+End time: Thu Jun  4 16:16:43 2026

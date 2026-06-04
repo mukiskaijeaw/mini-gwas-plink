@@ -1,0 +1,10 @@
+##fileformat=VCFv4.2
+##fileDate=20260604
+##source=PLINKv1.9
+##contig=<ID=1,length=3001>
+##INFO=<ID=PR,Number=0,Type=Flag,Description="Provisional reference allele, may not be based on real reference genome">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	F1_S1	F1_S2	F1_S3
+1	1000	rs1	A	G	.	.	PR	GT	0/0	0/1	1/1
+1	2000	rs2	G	A	.	.	PR	GT	0/0	0/0	0/1
+1	3000	rs3	C	T	.	.	PR	GT	0/0	0/1	1/1

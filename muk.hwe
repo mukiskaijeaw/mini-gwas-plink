@@ -1,0 +1,10 @@
+ CHR  SNP     TEST   A1   A2                 GENO   O(HET)   E(HET)            P 
+   1  rs1      ALL    G    A                1/1/1   0.3333      0.5            1
+   1  rs1      AFF    G    A                0/1/0        1      0.5            1
+   1  rs1    UNAFF    G    A                1/0/1        0      0.5       0.3333
+   1  rs2      ALL    A    G                0/1/2   0.3333   0.2778            1
+   1  rs2      AFF    A    G                0/0/1        0        0            1
+   1  rs2    UNAFF    A    G                0/1/1      0.5    0.375            1
+   1  rs3      ALL    T    C                1/1/1   0.3333      0.5            1
+   1  rs3      AFF    T    C                0/1/0        1      0.5            1
+   1  rs3    UNAFF    T    C                1/0/1        0      0.5       0.3333
