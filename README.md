@@ -6,6 +6,36 @@ A hands-on project designed to learn the fundamental Genome-Wide Association Stu
 
 This project was created to gain practical experience with genotype data processing and quality control procedures commonly used in GWAS studies.
 
+# Muk Mini GWAS Pipeline
+
+## 📁 Project Structure
+
+```text
+muk-gwas-project/
+│
+├── data/
+│   ├── muk.ped
+│   └── muk.map
+│
+├── results/
+│   ├── muk.bed
+│   ├── muk.bim
+│   ├── muk.fam
+│   ├── muk.frq
+│   ├── muk.imiss
+│   ├── muk.lmiss
+│   ├── muk.hwe
+│   ├── muk.eigenvec
+│   ├── muk.eigenval
+│   ├── muk.genome
+│   ├── muk.prune.in
+│   ├── muk.prune.out
+│   ├── muk.assoc
+│   └── muk.vcf
+│
+├── workflow.sh
+└── README.md
+```
 ## Workflow
 
 PED/MAP
