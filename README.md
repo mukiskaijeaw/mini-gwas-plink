@@ -106,7 +106,46 @@ Association Testing
 * Identity-by-descent (IBD) and PI_HAT
 * Linkage Disequilibrium (LD) pruning
 * Basic GWAS association testing
+## 🚀 How to Run
 
+### 1. Install Dependencies (Ubuntu/WSL)
+
+```bash
+sudo apt update
+
+sudo apt install plink1.9 git tree -y
+```
+
+Verify installation:
+
+```bash
+plink1.9 --version
+git --version
+tree --version
+```
+
+### 2. Clone Repository
+
+```bash
+git clone https://github.com/mukiskaijeaw/mini-gwas-plink.git
+
+cd mini-gwas-plink
+```
+
+### 3. Run the Workflow
+
+```bash
+bash workflow.sh
+```
+
+### 4. Check Results
+
+```bash
+cat results/muk.frq
+cat results/muk.hwe
+cat results/muk.assoc
+head results/muk.vcf
+```
 ## Author
 
 Chomphunut Unmee
