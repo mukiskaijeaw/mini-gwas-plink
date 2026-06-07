@@ -150,3 +150,28 @@ head results/muk.vcf
 
 Chomphunut Unmee
 Bioinformatics learner
+
+## References
+
+### GWAS
+
+1. **PLINK 1.9 Documentation**
+
+Purcell, S., Neale, B., Todd-Brown, K., Thomas, L., Ferreira, M. A., Bender, D., Maller, J., Sklar, P., de Bakker, P. I., Daly, M. J., & Sham, P. C. (2007). *PLINK: a tool set for whole-genome association and population-based linkage analyses*. American Journal of Human Genetics, 81(3), 559–575. https://doi.org/10.1086/519795
+
+#### 1.1 PLINK 1.9 Official Documentation
+
+https://www.cog-genomics.org/plink/1.9/
+
+2. **Hardy–Weinberg Equilibrium (HWE)**
+
+Wigginton, J. E., Cutler, D. J., & Abecasis, G. R. (2005). *A note on exact tests of Hardy–Weinberg equilibrium*. American Journal of Human Genetics, 76(5), 887–893. https://doi.org/10.1086/429864
+
+3. **PCA in GWAS (`plink --pca`)**
+
+Price, A. L., Patterson, N. J., Plenge, R. M., Weinblatt, M. E., Shadick, N. A., & Reich, D. (2006). *Principal components analysis corrects for stratification in genome-wide association studies*. Nature Genetics, 38(8), 904–909. https://doi.org/10.1038/ng1847
+
+4. **Relatedness / IBD (`plink --genome`)**
+
+Manichaikul, A., Mychaleckyj, J. C., Rich, S. S., Daly, K., Sale, M., & Chen, W. M. (2010). *Robust relationship inference in genome-wide association studies*. Bioinformatics, 26(22), 2867–2873. https://doi.org/10.1093/bioinformatics/btq559
+
